@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "animate.css": "^4.1.1",
     "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
@@ -18,7 +19,8 @@
     "build:tailwind": "tailwindcss build src/index.css -o src/app.css",
     "prestart": "npm run build:tailwind",
     "prebuild": "npm run build:tailwind",
-    "start": "react-scripts start",
+    "start": "node server.js",
+    "open": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

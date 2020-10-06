@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "~react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 @import "~animate.css/animate.css";
 
 body {
